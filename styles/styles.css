@@ -1,0 +1,39 @@
+:root {
+    --pink:#ff52bf;
+    --lightPink:#ff8fd8; 
+    --lightRed:#ff4242;
+    --darkCyan:#00252e;
+    --paleBlue:#f5faff;
+  }
+*{
+    padding :0px;
+    margin :0px;
+    box-sizing: border-box;
+}
+.main-container{
+padding :50px;
+
+}
+.logo{
+    height: 29px;
+    width: 179px;
+}
+.ctaBtn{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color: var(--lightPink);
+    border:2px solid var(--lightPink);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.ctaBtn:hover{background-color:var(--paleBlue); 
+    color:var(--pink);
+}
+.nav-container{
+    display:flex;
+     justify-content:space-between;  
+    align-items:center;
+}
+
