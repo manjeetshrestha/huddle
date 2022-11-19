@@ -41,7 +41,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
 }
 .description-container {
   margin-top: 175px;
@@ -152,7 +151,68 @@ body {
   height: 318px;
   width: 386px;
 }
-
+.footer-img{
+  width:100%;
+ 
+}
+.footer-container{
+  height:425px;
+  background-color:var(--darkCyan);
+  margin-top :-5px;
+  display:flex;
+  justify-content:space-between;
+}
+.footer-container-left{
+  width: 280px ;
+}
+.footer-container-right{
+  width: 385px;
+  color:var(--paleBlue);
+}
+.footer-container-right h3{
+  text-transform:uppercase;
+  margin-bottom:20px;
+}
+.para-container{
+  margin-bottom:20px;
+}
+.bottom-text{
+  color:var(--paleBlue);
+}
+.bottom-logo{
+  margin-bottom:20px;
+}
+.bottom-contact-container{
+  display:flex;
+  align-items:center;
+  margin-top:20px;
+}
+.bottom-contact-img{
+  margin-right:15px;
+}
+.bottom-contact-text{
+  color:var(--paleBlue);
+}
+.box{
+  height: 35px;
+  width: 235px;
+  border-radius: 7px;
+  border:none;
+  margin-right:15px;
+}
+.sub{
+  height:35px;
+  width:120px;
+color: var(--paleBlue);
+background-color:var(--pink);
+border-radius: 7px;
+border:none;
+cursor: pointer;
+}
+.sub:hover{
+  background-color:var(--paleBlue);
+  color:var(--pink);
+}
 @media only screen and (max-width: 850px) {
   .mockup-image {
     width: 350px;
