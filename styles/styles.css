@@ -36,6 +36,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 .description-container {
   margin-top: 175px;
@@ -62,10 +63,31 @@
   height: 61px;
   border-radius: 30px;
   border: 1px solid var(--lightPink);
-
   cursor: pointer;
 }
 .trybutton:hover {
+  background-color: var(--paleBlue);
+  color: var(--pink);
+}
+.ending {
+  margin-top: 40px;
+  margin-bottom: 126px;
+  text-align: center;
+}
+.ending h1 {
+  margin-bottom: 20px;
+}
+.secondbutton {
+  background-color: var(--lightPink);
+  color: var(--paleBlue);
+  width: 296px;
+  height: 61px;
+  border-radius: 30px;
+  border: 1px solid var(--lightPink);
+  cursor: pointer;
+  gap: 20px;
+}
+.secondbutton:hover {
   background-color: var(--paleBlue);
   color: var(--pink);
 }
