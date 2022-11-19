@@ -15,7 +15,7 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
-.main-container {
+.padding-container {
   padding: 50px;
 }
 .logo {
@@ -75,7 +75,7 @@ body {
   color: var(--pink);
 }
 .ending {
-  margin-top: 40px;
+  margin-top: 148px;
   margin-bottom: 126px;
   text-align: center;
 }
@@ -120,6 +120,37 @@ body {
 
 .remarks {
   color: var(--darkCyan);
+}
+.wavecontainer {
+  width: 100%;
+}
+.contain-container {
+  height: 470px;
+  width: 100%;
+  margin-top: -5px;
+}
+.blue-background {
+  background-color: var(--paleBlue);
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 45px 0 45px;
+}
+
+.text-content {
+  height: 318px;
+  width: 386px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-content h2 {
+  margin-bottom: 20px;
+}
+.growing-together-image {
+  height: 318px;
+  width: 386px;
 }
 
 @media only screen and (max-width: 850px) {
