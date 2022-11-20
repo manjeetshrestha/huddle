@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "opensans-bold";
+  src: url("../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "poppins-bold";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "poppins-light";
+  src: url("../assets/fonts/Poppins/Poppins-Light.ttf");
+}
+
 :root {
   --pink: #ff52bf;
   --lightPink: #ff8fd8;
@@ -9,6 +24,20 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: "opensans-bold", serif;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "poppins-bold", serif;
+}
+
+p {
+  font-family: "poppins-light", serif;
+  font-size: 12px;
 }
 
 body {
@@ -109,7 +138,7 @@ body {
   margin: 50px 0;
   display: flex;
   justify-content: space-between;
-  padding: 0px 400px 0px 400px;
+  padding: 0px 300px 0px 300px;
 }
 
 .bold-numbers {
@@ -119,6 +148,7 @@ body {
 
 .remarks {
   color: var(--darkCyan);
+  font-family: "poppins-light", serif;
 }
 .wavecontainer {
   width: 100%;
@@ -126,7 +156,7 @@ body {
 .contain-container {
   height: 470px;
   width: 100%;
-  margin-top: -5px;
+  margin-top: -8px;
 }
 .blue-background {
   background-color: var(--paleBlue);
@@ -151,67 +181,66 @@ body {
   height: 318px;
   width: 386px;
 }
-.footer-img{
-  width:100%;
- 
+.footer-img {
+  width: 100%;
 }
-.footer-container{
-  height:425px;
-  background-color:var(--darkCyan);
-  margin-top :-5px;
-  display:flex;
-  justify-content:space-between;
+.footer-container {
+  height: 425px;
+  background-color: var(--darkCyan);
+  margin-top: -8px;
+  display: flex;
+  justify-content: space-between;
 }
-.footer-container-left{
-  width: 280px ;
+.footer-container-left {
+  width: 280px;
 }
-.footer-container-right{
+.footer-container-right {
   width: 385px;
-  color:var(--paleBlue);
+  color: var(--paleBlue);
 }
-.footer-container-right h3{
-  text-transform:uppercase;
-  margin-bottom:20px;
+.footer-container-right h3 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
-.para-container{
-  margin-bottom:20px;
+.para-container {
+  margin-bottom: 20px;
 }
-.bottom-text{
-  color:var(--paleBlue);
+.bottom-text {
+  color: var(--paleBlue);
 }
-.bottom-logo{
-  margin-bottom:20px;
+.bottom-logo {
+  margin-bottom: 20px;
 }
-.bottom-contact-container{
-  display:flex;
-  align-items:center;
-  margin-top:20px;
+.bottom-contact-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
-.bottom-contact-img{
-  margin-right:15px;
+.bottom-contact-img {
+  margin-right: 15px;
 }
-.bottom-contact-text{
-  color:var(--paleBlue);
+.bottom-contact-text {
+  color: var(--paleBlue);
 }
-.box{
+.box {
   height: 35px;
   width: 235px;
   border-radius: 7px;
-  border:none;
-  margin-right:15px;
+  border: none;
+  margin-right: 15px;
 }
-.sub{
-  height:35px;
-  width:120px;
-color: var(--paleBlue);
-background-color:var(--pink);
-border-radius: 7px;
-border:none;
-cursor: pointer;
+.sub {
+  height: 35px;
+  width: 120px;
+  color: var(--paleBlue);
+  background-color: var(--pink);
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
 }
-.sub:hover{
-  background-color:var(--paleBlue);
-  color:var(--pink);
+.sub:hover {
+  background-color: var(--paleBlue);
+  color: var(--pink);
 }
 @media only screen and (max-width: 850px) {
   .mockup-image {
